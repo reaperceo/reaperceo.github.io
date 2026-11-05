@@ -78,9 +78,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Creative Studio — Créateur visuel" },
+      { title: "REAPER.CEO — Création visuelle" },
       { name: "description", content: "Montage publicitaire, affiches et montage vidéo personnalisé." },
-      { property: "og:title", content: "Creative Studio — Créateur visuel" },
+      { property: "og:title", content: "REAPER.CEO — Création visuelle" },
       { property: "og:description", content: "Montage publicitaire, affiches et montage vidéo personnalisé." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -109,7 +109,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <head>
         <HeadContent />
       </head>
